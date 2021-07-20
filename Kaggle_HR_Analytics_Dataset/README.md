@@ -13,3 +13,16 @@ as interpreting affected factors on employee decision.
 
 # Missing Data
 
+Missing values occur in all kinds of datasets from industry to academia. They can be represented differently - sometimes by a question mark, or -999, sometimes by 'n/a', or by some other dedicated number or character.
+
+Detecting and handling missing values in the correct way is important, as they can impact the result of the analysis, and there are algorithms that can't handle them.
+
+There is no penancea for all missing value imputation problems. For example, if missing values are due to a malfunctioning of the measuring machine and therefore real numerical values are just not recorded then in that case you can't impute missing values with 0 whereas if missing values appear where there is nothing to measure then it can be imputed by 0.
+
+Some methods of detecting missing values and of which type:
+- Histograms are a great tool to find placeholder character, if any.
+- Usually, for nominal data, it is easier to recognise the placeholder for missing values, since the string format allows is to write some reference to a missing value, like 'unknown' or 'n/a'.
+
+Missing values are usually classified into three different types:
+
+
